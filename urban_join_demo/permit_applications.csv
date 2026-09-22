@@ -1,0 +1,21 @@
+permit_id,property_id,permit_type,permit_status,inspector_name
+PMT-00001,PR-02715,New Construction,Rejected,Anna Turner
+PMT-00002,PR-02034,Renovation,Rejected,Jose Soto
+PMT-00003,PR-01643,Renovation,Rejected,Jordan Matthews
+PMT-00004,PR-01103,Demolition,Pending,Justin Glass
+PMT-00005,PR-02039,Renovation,Approved,Justin Glass
+PMT-00006,PR-02352,Extension,Rejected,Robert Steele
+PMT-00007,PR-02589,New Construction,Approved,Jose Soto
+PMT-00008,PR-02330,Renovation,Rejected,Anna Turner
+PMT-00009,PR-01894,Demolition,Pending,Robert Steele
+PMT-00010,PR-00231,Extension,Pending,Anna Turner
+PMT-00011,PR-00369,Renovation,Rejected,Justin Glass
+PMT-00012,PR-01309,New Construction,Approved,Jordan Matthews
+PMT-00013,PR-02038,Demolition,Rejected,Justin Glass
+PMT-00014,PR-02619,Renovation,Approved,Jose Soto
+PMT-00015,PR-01974,Renovation,Rejected,Jose Soto
+PMT-00016,PR-00253,New Construction,Rejected,Anna Turner
+PMT-00017,PR-02627,New Construction,Pending,Jose Soto
+PMT-00018,PR-00586,Extension,Pending,Jose Soto
+PMT-00019,PR-00112,Demolition,Approved,Jordan Matthews
+PMT-00020,PR-01148,Demolition,Approved,Robert Steele

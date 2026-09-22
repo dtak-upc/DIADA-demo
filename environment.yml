@@ -1,0 +1,18 @@
+# Conda environment for the Demo for DIADA gold-layer tool.
+#
+# Create it with:
+#   conda env create -f environment.yml
+# Activate it with:
+#   conda activate diada-demo
+#
+# Includes Node (via conda-forge) so `npm` is available inside the env too -
+# no separate Node install needed to run the frontend.
+name: diada-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - nodejs=20
+  - pip
+  - pip:
+      - -r backend/requirements.txt

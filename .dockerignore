@@ -1,0 +1,11 @@
+# Persisted app state - never bake a host's own data into the image.
+.diada/
+
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.venv/
+
+.git/
+.claude/

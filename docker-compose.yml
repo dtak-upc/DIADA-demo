@@ -1,0 +1,14 @@
+services:
+  diada-demo:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - diada_data:/app/.diada
+      # Mount your own CSV folder(s) read-only, then create a project in
+      # the UI pointing at the path on the RIGHT below (the container's
+      # view of it), not the host path on the left:
+      # - /path/to/your/data:/data/mine:ro
+
+volumes:
+  diada_data:

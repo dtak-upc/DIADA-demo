@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "diada-demo",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["run.py", "--skip-install"],
+      "port": 5173
+    },
+    {
+      "name": "diada-demo-backend",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["run.py", "--backend-only", "--skip-install"],
+      "port": 8000
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pandas==2.2.2
+python-multipart==0.0.9
+networkx==3.3
+duckdb==1.5.4
+jellyfish==1.2.1
+faker==40.28.1  # only used by urban_join_demo/generate_urban_demo_data.py, not the running app
+joblib==1.5.3
+scikit-learn==1.7.2  # model was trained under 1.6.1; loads fine under 1.7.2 (verified), just warns on unpickle
+python-Levenshtein==0.27.3
